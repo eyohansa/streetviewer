@@ -244,3 +244,5 @@ node_modules
 streetviewer/data/
 streetviewer/output/
 streetviewer/streetviewer/
+*.sln
+*.njsproj
