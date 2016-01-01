@@ -66,7 +66,7 @@ fs.createReadStream(INPUT_FILE, { encoding: 'utf8' })
     next();
 }, function (flush) {
     this.push(svgpath(pathBuffer));
-    this.push('</svg');
+    this.push('</svg>');
     flush();
 }))
 .pipe(write_stream)
